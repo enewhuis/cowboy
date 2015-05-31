@@ -11,7 +11,8 @@ PLT_APPS = crypto public_key ssl
 # Dependencies.
 
 DEPS = cowlib ranch
-dep_cowlib = git https://github.com/enewhus/cowlib
+dep_cowlib = git https://github.com/enewhuis/cowlib
+dep_ranch = git https://github.com/enewhuis/ranch
 
 TEST_DEPS = ct_helper gun
 dep_ct_helper = git https://github.com/extend/ct_helper.git master
